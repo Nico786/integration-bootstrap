@@ -1,0 +1,81 @@
+@font-face{
+    font-family:'Montserrat', sans-serif;
+    src: url(/assets/fonts/Montserrat-Regular.otf);
+}
+
+body{
+    font-family:"Montserrat",sans-serif;
+}
+
+
+/*--------------HEADER------------*/
+
+.logo-homepage{
+    text-decoration:none;
+    color:black;
+    font-weight: 700;
+}
+
+.logo-homepage img{
+    margin-right: 10px;
+}
+
+header .nav-link{
+    color:black;
+}
+
+header a:hover, header .nav-link:hover{
+    color:gray
+}   
+
+/*--------------MAIN------------*/
+.bandeau-img{
+    background-image: url(assets/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.bandeau-img h1{
+    color:white;
+}
+
+.bandeau-img .container{
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.bandeau-img .form-check-label{
+    color:white;
+}
+
+.bandeau-img .form-check-input{
+    margin-right:5px
+}
+
+.avantages{
+    background-color: goldenrod;
+}
+
+.avantages p{
+    font-size:12px;
+}
+
+.description h4{
+    font-weight:500
+}
+
+/*--------------FOOTER------------*/
+footer{
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+footer .nav-link{
+    color:white;
+}
+
+footer .nav-link:hover{
+    color:gray
+}
+
+footer .logo-footer{
+    color:gray
+}
